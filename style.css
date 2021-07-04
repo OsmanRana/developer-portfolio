@@ -2,10 +2,13 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0px;
 }
-section {
+.flexibla-container {
     display: flex;
     margin-bottom: 150px;
 }
+
+
+/* Baground Images */
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
@@ -14,6 +17,11 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.bottom-banner {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
 }
 .main-heading{
     font-size: 50px;
@@ -34,10 +42,10 @@ span {
 }
 .half-width {
     width: 50%;
-    padding: 0 5%;
+    padding: 0 7%;
 }
 .half-width img {
-    width: 90%;
+    width: 100%;
 }
 .link-button {
     text-decoration: none;
