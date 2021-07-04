@@ -20,3 +20,11 @@ span {
 .half-width img {
     width: 90%;
 }
+.link-button {
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(45deg, rgb(252, 179, 45), rgb(253, 51, 51));
+    font-weight: 700;
+    color: white;
+    border-radius: 5px;
+}
