@@ -21,7 +21,7 @@ body {
 .bottom-banner {
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
-    background-position: left bottom;
+    background-position: left center;
 }
 .main-heading{
     font-size: 50px;
@@ -54,4 +54,24 @@ span {
     font-weight: 700;
     color: white;
     border-radius: 5px;
+}
+.experience-item {
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.35);
+    margin: 50px;
+    padding: 0% 4% 2%;
+    
+}
+#experience-item-1 {
+    border-left: 10px solid;
+    border-image: linear-gradient(tomato, rgba(248, 137, 155, 0.486));
+    border-image-slice: 1;
+}
+#experience-item-2 {
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, rgb(113, 216, 250) );
+    border-image-slice: 1;
+}
+footer {
+    width: 25%;
+    margin: 5% auto;
 }
